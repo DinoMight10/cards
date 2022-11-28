@@ -1,0 +1,35 @@
+.Cards{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+body{
+  background-color: rgb(4, 4, 43);
+}
+
+.card-img{
+  height: 250px;
+  width: 250;
+  border: 15px solid blue;
+  border-radius: 55px;
+}
+.card-info{
+  color: rgb(24, 191, 224);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  border: 15px solid blue;
+  border-radius: 55px;
+}
+.card-category{
+ font-family: Arial, Helvetica, sans-serif;
+}
+.card-title{
+ font-size: larger;
+}
+.card-desc{
+  color: rgb(24, 191, 224);
+}
+.link{
+ border: 15px solid rgb(24, 191, 224);
+ border-radius: 55px;
+}
